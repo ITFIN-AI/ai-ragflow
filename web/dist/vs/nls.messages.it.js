@@ -4,7 +4,7 @@ define([], function () {
    * Version: 0.52.0(f6dc0eb8fce67e57f6036f4769d92c1666cdf546)
    * Released under the MIT license
    * https://github.com/microsoft/vscode/blob/main/LICENSE.txt
-   *-----------------------------------------------------------*/ (globalThis._VSCODE_NLS_MESSAGES =
+   *-----------------------------------------------------------*/ ((globalThis._VSCODE_NLS_MESSAGES =
     [
       '{0} ({1})',
       'input',
@@ -1878,7 +1878,7 @@ Ricevuto: '{1}'.`,
       "Non \xE8 stato possibile ripetere '{0}' perch\xE9 \xE8 gi\xE0 in esecuzione un'operazione di annullamento o ripetizione.",
       'Area di lavoro del codice',
     ]),
-    (globalThis._VSCODE_NLS_LANGUAGE = 'it');
+    (globalThis._VSCODE_NLS_LANGUAGE = 'it'));
 
   //# sourceMappingURL=../min-maps/nls.messages.it.js.map
 });

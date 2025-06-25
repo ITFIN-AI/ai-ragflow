@@ -4,7 +4,7 @@ define([], function () {
    * Version: 0.52.0(f6dc0eb8fce67e57f6036f4769d92c1666cdf546)
    * Released under the MIT license
    * https://github.com/microsoft/vscode/blob/main/LICENSE.txt
-   *-----------------------------------------------------------*/ (globalThis._VSCODE_NLS_MESSAGES =
+   *-----------------------------------------------------------*/ ((globalThis._VSCODE_NLS_MESSAGES =
     [
       '{0} ({1})',
       'entr\xE9e',
@@ -1878,7 +1878,7 @@ Re\xE7u : '{1}'.`,
       "Impossible de r\xE9tablir '{0}', car une op\xE9ration d'annulation ou de r\xE9tablissement est d\xE9j\xE0 en cours d'ex\xE9cution.",
       'Espace de travail de code',
     ]),
-    (globalThis._VSCODE_NLS_LANGUAGE = 'fr');
+    (globalThis._VSCODE_NLS_LANGUAGE = 'fr'));
 
   //# sourceMappingURL=../min-maps/nls.messages.fr.js.map
 });

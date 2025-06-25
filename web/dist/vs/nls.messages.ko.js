@@ -4,7 +4,7 @@ define([], function () {
    * Version: 0.52.0(f6dc0eb8fce67e57f6036f4769d92c1666cdf546)
    * Released under the MIT license
    * https://github.com/microsoft/vscode/blob/main/LICENSE.txt
-   *-----------------------------------------------------------*/ (globalThis._VSCODE_NLS_MESSAGES =
+   *-----------------------------------------------------------*/ ((globalThis._VSCODE_NLS_MESSAGES =
     [
       '{0}({1})',
       '\uC785\uB825',
@@ -1878,7 +1878,7 @@ define([], function () {
       "\uC2E4\uD589 \uCDE8\uC18C \uB610\uB294 \uB2E4\uC2DC \uC2E4\uD589 \uC791\uC5C5\uC774 \uC774\uBBF8 \uC2E4\uD589 \uC911\uC774\uBBC0\uB85C '{0}'\uC744(\uB97C) \uB2E4\uC2DC \uC2E4\uD589\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.",
       '\uCF54\uB4DC \uC791\uC5C5 \uC601\uC5ED',
     ]),
-    (globalThis._VSCODE_NLS_LANGUAGE = 'ko');
+    (globalThis._VSCODE_NLS_LANGUAGE = 'ko'));
 
   //# sourceMappingURL=../min-maps/nls.messages.ko.js.map
 });

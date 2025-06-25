@@ -4,7 +4,7 @@ define([], function () {
    * Version: 0.52.0(f6dc0eb8fce67e57f6036f4769d92c1666cdf546)
    * Released under the MIT license
    * https://github.com/microsoft/vscode/blob/main/LICENSE.txt
-   *-----------------------------------------------------------*/ (globalThis._VSCODE_NLS_MESSAGES =
+   *-----------------------------------------------------------*/ ((globalThis._VSCODE_NLS_MESSAGES =
     [
       '{0} ({1})',
       '\u8F38\u5165',
@@ -1878,7 +1878,7 @@ define([], function () {
       "\u56E0\u70BA\u5DF2\u7D93\u6709\u6B63\u5728\u57F7\u884C\u7684\u5FA9\u539F\u6216\u91CD\u505A\u4F5C\u696D\uFF0C\u6240\u4EE5\u7121\u6CD5\u91CD\u505A '{0}'\u3002",
       'Code \u5DE5\u4F5C\u5340',
     ]),
-    (globalThis._VSCODE_NLS_LANGUAGE = 'zh-tw');
+    (globalThis._VSCODE_NLS_LANGUAGE = 'zh-tw'));
 
   //# sourceMappingURL=../min-maps/nls.messages.zh-tw.js.map
 });

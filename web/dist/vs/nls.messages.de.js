@@ -4,7 +4,7 @@ define([], function () {
    * Version: 0.52.0(f6dc0eb8fce67e57f6036f4769d92c1666cdf546)
    * Released under the MIT license
    * https://github.com/microsoft/vscode/blob/main/LICENSE.txt
-   *-----------------------------------------------------------*/ (globalThis._VSCODE_NLS_MESSAGES =
+   *-----------------------------------------------------------*/ ((globalThis._VSCODE_NLS_MESSAGES =
     [
       '{0} ({1})',
       'Eingabe',
@@ -1880,7 +1880,7 @@ Empfangen: \u201E{1}\u201C.`,
       '"{0}" konnte nicht wiederholt werden, weil bereits ein Vorgang zum R\xFCckg\xE4ngigmachen oder Wiederholen durchgef\xFChrt wird.',
       'Codearbeitsbereich',
     ]),
-    (globalThis._VSCODE_NLS_LANGUAGE = 'de');
+    (globalThis._VSCODE_NLS_LANGUAGE = 'de'));
 
   //# sourceMappingURL=../min-maps/nls.messages.de.js.map
 });

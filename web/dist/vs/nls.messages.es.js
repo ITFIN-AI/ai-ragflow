@@ -4,7 +4,7 @@ define([], function () {
    * Version: 0.52.0(f6dc0eb8fce67e57f6036f4769d92c1666cdf546)
    * Released under the MIT license
    * https://github.com/microsoft/vscode/blob/main/LICENSE.txt
-   *-----------------------------------------------------------*/ (globalThis._VSCODE_NLS_MESSAGES =
+   *-----------------------------------------------------------*/ ((globalThis._VSCODE_NLS_MESSAGES =
     [
       '{0} ({1})',
       'entrada',
@@ -1880,7 +1880,7 @@ recibido: '{1}'.`,
       'No se pudo rehacer "{0}" porque ya hay una operaci\xF3n de deshacer o rehacer en ejecuci\xF3n.',
       '\xC1rea de trabajo de c\xF3digo',
     ]),
-    (globalThis._VSCODE_NLS_LANGUAGE = 'es');
+    (globalThis._VSCODE_NLS_LANGUAGE = 'es'));
 
   //# sourceMappingURL=../min-maps/nls.messages.es.js.map
 });
