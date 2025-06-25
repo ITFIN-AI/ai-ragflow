@@ -37,8 +37,8 @@ class LaunchMode(StrEnum):
     HOST = "host"
 
 
-BASE_URL = "http://127.0.0.1:9380"
-HOST = "127.0.0.1"
+BASE_URL = "http://127.0.1.1:9380"
+HOST = "127.0.1.1"
 PORT = "9382"
 HOST_API_KEY = ""
 MODE = ""
@@ -256,8 +256,8 @@ def create_starlette_app():
 
 
 @click.command()
-@click.option("--base-url", type=str, default="http://127.0.0.1:9380", help="API base URL for RAGFlow backend")
-@click.option("--host", type=str, default="127.0.0.1", help="Host to bind the RAGFlow MCP server")
+@click.option("--base-url", type=str, default="http://127.0.1.1:9380", help="API base URL for RAGFlow backend")
+@click.option("--host", type=str, default="127.0.1.1", help="Host to bind the RAGFlow MCP server")
 @click.option("--port", type=int, default=9382, help="Port to bind the RAGFlow MCP server")
 @click.option(
     "--mode",
@@ -310,8 +310,8 @@ if __name__ == "__main__":
     """
     Launch example:
         self-host:
-            uv run mcp/server/server.py --host=127.0.0.1 --port=9382 --base-url=http://127.0.0.1:9380 --mode=self-host --api-key=ragflow-xxxxx
+            uv run mcp/server/server.py --host=127.0.1.1 --port=9382 --base-url=http://127.0.1.1:9380 --mode=self-host --api-key=ragflow-xxxxx
         host:
-            uv run mcp/server/server.py --host=127.0.0.1 --port=9382 --base-url=http://127.0.0.1:9380 --mode=host
+            uv run mcp/server/server.py --host=127.0.1.1 --port=9382 --base-url=http://127.0.1.1:9380 --mode=host
     """
     main()

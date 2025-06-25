@@ -544,7 +544,7 @@ class QWenRerank(Base):
 
 class HuggingfaceRerank(DefaultRerank):
     @staticmethod
-    def post(query: str, texts: list, url="127.0.0.1"):
+    def post(query: str, texts: list, url="127.0.1.1"):
         exc = None
         scores = [0 for _ in range(len(texts))]
         batch_size = 8
@@ -563,7 +563,7 @@ class HuggingfaceRerank(DefaultRerank):
             raise exc
         return np.array(scores)
 
-    def __init__(self, key, model_name="BAAI/bge-reranker-v2-m3", base_url="http://127.0.0.1"):
+    def __init__(self, key, model_name="BAAI/bge-reranker-v2-m3", base_url="http://127.0.1.1"):
         self.model_name = model_name.split("___")[0]
         self.base_url = base_url
 

@@ -860,7 +860,7 @@ class HuggingFaceEmbed(Base):
             raise ValueError("Model name cannot be None")
         self.key = key
         self.model_name = model_name.split("___")[0]
-        self.base_url = base_url or "http://127.0.0.1:8080"
+        self.base_url = base_url or "http://127.0.1.1:8080"
 
     def encode(self, texts: list):
         embeddings = []

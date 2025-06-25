@@ -38,7 +38,7 @@ curl --request PUT \
 # List datasets
 echo -e "\n-- List datasets"
 curl --request GET \
-     --url http://127.0.0.1:9380/api/v1/datasets \
+     --url http://127.0.1.1:9380/api/v1/datasets \
      --header 'Authorization: Bearer ragflow-IzZmY1MGVhYTBhMjExZWZiYTdjMDI0Mm'
 
 # Delete datasets

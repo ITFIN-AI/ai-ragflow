@@ -31,7 +31,7 @@ def get_opendal_config_from_yaml(yaml_path=SERVICE_CONF_PATH):
             mysql_config = config.get('mysql', {})
             kwargs = {
                 "scheme": "mysql",
-                "host": mysql_config.get("host", "127.0.0.1"),
+                "host": mysql_config.get("host", "127.0.1.1"),
                 "port": str(mysql_config.get("port", 3306)),
                 "user": mysql_config.get("user", "root"),
                 "password": mysql_config.get("password", ""),

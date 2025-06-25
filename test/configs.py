@@ -17,7 +17,7 @@ import os
 
 import pytest
 
-HOST_ADDRESS = os.getenv("HOST_ADDRESS", "http://127.0.0.1:9380")
+HOST_ADDRESS = os.getenv("HOST_ADDRESS", "http://127.0.1.1:9380")
 VERSION = "v1"
 ZHIPU_AI_API_KEY = os.getenv("ZHIPU_AI_API_KEY")
 if ZHIPU_AI_API_KEY is None:

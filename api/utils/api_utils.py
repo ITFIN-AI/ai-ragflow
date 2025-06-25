@@ -191,7 +191,7 @@ def not_allowed_parameters(*params):
 
 
 def is_localhost(ip):
-    return ip in {"127.0.0.1", "::1", "[::1]", "localhost"}
+    return ip in {"127.0.1.1", "::1", "[::1]", "localhost"}
 
 
 def send_file_in_mem(data, filename):

@@ -22,7 +22,7 @@ const CrawlerForm = ({ onValuesChange, form, node }: IOperatorForm) => {
     >
       <DynamicInputVariable node={node}></DynamicInputVariable>
       <Form.Item label={t('proxy')} name={'proxy'}>
-        <Input placeholder="like: http://127.0.0.1:8888"></Input>
+        <Input placeholder="like: http://127.0.1.1:8888"></Input>
       </Form.Item>
       <Form.Item
         label={t('extractType')}
